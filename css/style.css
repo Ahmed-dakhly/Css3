@@ -1,0 +1,203 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+background-color: rgb(192, 202, 177);
+height: 1750px;
+}
+.parent{
+position :relative;
+}
+ .div1 {
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+    margin-top: 20px;
+    background-image: url(../Images/EXVa1OEU0AAREN1.jpg);
+    background-size: cover;
+    position: absolute;
+    animation-name: change  ;
+    animation-duration: 3s ; 
+    animation-fill-mode: forwards;
+
+ }
+    @keyframes change {
+
+    0% { left: 0px;  }
+    50% { left:500px; box-shadow: 5px 10px 25px 10px yellow; transform: scale(1.25, 1.25) ;background-image:url(../Images/barcelona-spain-6th-may-2015-barcelonas-argentine-forward-lionel-messi-ENJKH2.jpg); background-size: cover ;}
+    75% {Left:750px ; background-image:url(../Images/58ab4c289c055d095969f9158a5d2128_crop_north.jpg); background-size: cover; }
+    100% { left:1075px; background-image: url(../Images/Lionel-Messi-Wonder-goal.jpg); background-size: cover; }
+   }  
+   .div1:hover{
+    animation-play-state: paused;
+   }
+   .div2 {
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+    margin-top: 250px;
+    margin-left: 1070px;
+    background-image: url(../Images/2.1.jpg);
+    background-size: cover;
+    position: absolute;
+    animation-name: change1  ;
+    animation-duration: 3s ; 
+    animation-fill-mode: forwards;
+    animation-delay: 3s;
+ }
+    @keyframes change1 {
+
+    0% { right: 0px;  }
+    50% { right:500px; box-shadow: 5px 10px 25px 10px yellow; transform: scale(1.25, 1.25) ;background-image:url(../Images/4.2.jpg); background-size: cover ;}
+    75% {right:750px ;  background-image:url(../Images/4.3.jpg); background-size: cover; }
+    100% { right:1075px; background-image: url(../Images/4.4.jpg); background-size: cover; }
+   }  
+   .div2:hover{
+    animation-play-state: paused;
+   }
+   .div3 {
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+    margin-top: 500px;
+    background-image: url(../Images/3.1.jpg);
+    background-size: cover;
+    position: absolute;
+    animation-name: change3  ;
+    animation-duration: 3s ; 
+    animation-fill-mode: forwards;
+    animation-delay: 6s;
+
+ }
+    @keyframes change3 {
+
+    0% { left: 0px;  }
+    50% { left:500px; box-shadow: 5px 10px 25px 10px yellow; transform: scale(1.25, 1.25) ;background-image:url(../Images/3.2.jpg); background-size: cover ;}
+    75% {Left:750px ;  background-image:url(../Images/3.3.jpg); background-size: cover; }
+    100% { left:1075px; background-image: url(../Images/3.4.jpg); background-size: cover; }
+   }  
+   .div3:hover{
+    animation-play-state: paused;
+   } 
+   .div4 {
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+    margin-top: 750px;
+    margin-left: 1070px;
+    background-image: url(../Images/Lionel-Messi-Barcelona-copy-1.jpg);
+    background-size: cover;
+    position: absolute;
+    animation-name: change4  ;
+    animation-duration: 3s ; 
+    animation-fill-mode: forwards;
+    animation-delay: 9s;
+ }
+    @keyframes change4 {
+
+    0% { right: 0px;  }
+    50% { right:500px; box-shadow: 5px 10px 25px 10px yellow; transform: scale(1.25, 1.25) ;background-image:url(../Images/Capture.PNG); background-size: cover ;}
+    75% {right:750px ;  background-image:url(../Images/24CLASICO-superJumbo-v2.jpg); background-size: cover; }
+    100% { right:1075px; background-image: url(../Images/17198327.jpg); background-size: cover; }
+   }  
+   .div4:hover{
+    animation-play-state: paused;
+   } 
+   .div5 {
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+    margin-top: 1000px;
+    background-image: url(../Images/5.1.jpg);
+    background-size: cover;
+    position: absolute;
+    animation-name: change5  ;
+    animation-duration: 3s ; 
+    animation-fill-mode: forwards;
+    animation-delay: 12s;
+
+ }
+    @keyframes change5 {
+
+    0% { left: 0px;  }
+    50% { left:500px; box-shadow: 5px 10px 25px 10px yellow; transform: scale(1.25, 1.25) ;background-image:url(../Images/5.2.jpg); background-size: cover ;}
+    75% {Left:750px ;  background-image:url(../Images/5.3.jpg); background-size: cover; }
+    100% { left:1075px; background-image: url(../Images/5.4.JPG); background-size: cover; }
+   }  
+   .div5:hover{
+    animation-play-state: paused;
+   }
+   .div6 {
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+    margin-top: 1250px;
+    margin-left: 1070px;
+    background-image: url(../Images/6.1.jpg);
+    background-size: cover;
+    position: absolute;
+    animation-name: change6 ;
+    animation-duration: 3s ; 
+    animation-fill-mode: forwards;
+    animation-delay: 15s;
+ }
+    @keyframes change6 {
+
+    0% { right: 0px;  }
+    50% { right:500px; box-shadow: 5px 10px 25px 10px yellow; transform: scale(1.25, 1.25) ;background-image:url(../Images/6.2.jpg); background-size: cover;}
+    75% {right:750px ;  background-image:url(../Images/6.3.jpg); background-size: cover; }
+    100% { right:1075px; background-image: url(../Images/6.4.jpg); background-size: cover; }
+   }  
+   .div6:hover:hover{
+    animation-play-state: paused;
+   } 
+   .div7 {
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+    margin-top: 1500px;
+    background-image: url(../Images/7.1.jpg);
+    background-size: cover;
+    position: absolute;
+    animation-name: change7  ;
+    animation-duration: 3s ; 
+    animation-fill-mode: forwards;
+    animation-delay: 18s;
+
+ }
+    @keyframes change7 {
+
+    0% { left: 0px;  }
+    50% { left:500px; box-shadow: 5px 10px 25px 10px yellow; transform: scale(1.25, 1.25) ;background-image:url(../Images/7.2.jpeg); background-size: cover ;}
+    75% {Left:750px ;  background-image:url(../Images/7.3.jpg); background-size: cover; }
+    100% { left:1075px; background-image: url(../Images/7.4.jpg); background-size: cover; }
+   }  
+   .div7:hover{
+    animation-play-state: paused;
+   }
+   .div8 {
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+    margin-top: 1750px;
+    margin-left: 1070px;
+    background-image: url(../Images/8.1\ \(2\).jpg);
+    background-size: cover;
+    position: absolute;
+    animation-name: change8 ;
+    animation-duration: 3s ; 
+    animation-fill-mode: forwards;
+    animation-delay: 21s;
+ }
+    @keyframes change8 {
+
+    0% { right: 0px;  }
+    50% { right:500px; box-shadow: 5px 10px 25px 10px yellow; transform: scale(1.25, 1.25) ;background-image:url(../Images/8.2.jpg); background-size: cover;}
+    75% {right:750px ;  background-image:url(../Images/8.3.jpg); background-size: cover; }
+    100% { right:1075px; background-image: url(../Images/8.4.jpg); background-size: cover; }
+   }  
+   .div8:hover:hover{
+    animation-play-state: paused;
+   } 
